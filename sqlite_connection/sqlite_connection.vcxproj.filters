@@ -13,21 +13,38 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{cb25ec74-efdf-443e-87b0-373d204b88ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cin_buf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="note.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cin_buf.h">
+    <ClInclude Include="note.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\setenv.bat">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="assets\sqlite3.db">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="img\notes.erd">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\notes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

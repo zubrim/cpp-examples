@@ -5,6 +5,15 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cin_redirection", "cin_redirection\cin_redirection.vcxproj", "{EA3CC004-676A-4E31-AFA8-848566D2884E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite_connection", "sqlite_connection\sqlite_connection.vcxproj", "{4D25F938-DD7B-49AE-861B-7D7D1A121B23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E39264F-9C0D-40FE-B850-52AE54325B20}"
+	ProjectSection(SolutionItems) = preProject
+		cpp_logo.png = cpp_logo.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +30,14 @@ Global
 		{EA3CC004-676A-4E31-AFA8-848566D2884E}.Release|x64.Build.0 = Release|x64
 		{EA3CC004-676A-4E31-AFA8-848566D2884E}.Release|x86.ActiveCfg = Release|Win32
 		{EA3CC004-676A-4E31-AFA8-848566D2884E}.Release|x86.Build.0 = Release|Win32
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Debug|x64.ActiveCfg = Debug|x64
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Debug|x64.Build.0 = Debug|x64
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Debug|x86.Build.0 = Debug|Win32
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Release|x64.ActiveCfg = Release|x64
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Release|x64.Build.0 = Release|x64
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Release|x86.ActiveCfg = Release|Win32
+		{4D25F938-DD7B-49AE-861B-7D7D1A121B23}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
