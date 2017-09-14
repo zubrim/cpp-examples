@@ -27,6 +27,9 @@
     <None Include="assets\out.gn\x64.release\args.gn">
       <Filter>Assets</Filter>
     </None>
+    <None Include="LICENSE.v8">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello_world.cpp">
