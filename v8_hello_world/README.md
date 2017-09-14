@@ -46,7 +46,7 @@ Building Tips
       - `build\$(Platform)\$(Configuration)\bin\`
       - `build\$(Platform)\$(Configuration)\obj\`
   3. C/C++ > General > Additional Include Directories
-      - `$(CPP_V8_ROOT)\include\;`
+      - `$(CPP_V8_ROOT)\;$(CPP_V8_ROOT)\include\;`
   4. Linker > General > Additional Library Directories
       - `$(CPP_V8_ROOT)\out.gn\x64.release\obj\third_party\icu;$(CPP_V8_ROOT)\out.gn\x64.release\obj\src\inspector;$(CPP_V8_ROOT)\out.gn\x64.release\obj;`
   5. Linker > Input > Additional dependencies
