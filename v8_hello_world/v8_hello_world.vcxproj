@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="assets\out.gn\x64.release\args.gn" />
     <None Include="assets\setenv.bat" />
     <None Include="README.md" />
   </ItemGroup>

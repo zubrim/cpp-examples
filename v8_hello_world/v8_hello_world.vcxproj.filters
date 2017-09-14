@@ -24,5 +24,8 @@
     <None Include="assets\setenv.bat">
       <Filter>Assets</Filter>
     </None>
+    <None Include="assets\out.gn\x64.release\args.gn">
+      <Filter>Assets</Filter>
+    </None>
   </ItemGroup>
 </Project>
