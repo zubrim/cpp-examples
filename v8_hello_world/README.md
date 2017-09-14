@@ -34,6 +34,7 @@ Building Tips
      - opens text editor, edit with additional values from __assets/out.gn/x64.release/args.gn__:
      - `is_component_build = false`
      - `v8_static_library = true`
+     - this should override settings in __v8.gni__, if not - modify it
   - `# ninja -C out.gn/x64.release`
   
  ### Project Settings
