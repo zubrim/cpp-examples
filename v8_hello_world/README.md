@@ -38,10 +38,8 @@ Building Tips
   - `# ninja -C out.gn/x64.release`
   
  ### Project Settings
-  1. Configuration Properties > Debugging > Environment
-      - `PATH=%PATH%;$(CPP_V8_ROOT)\out.gn\x64.release\;`
-      - this is a path to __natives_blob.bin__ and __snapshot_blob.bin__
-      - alternatively, these file must be copied to *.exe directory
+  1. __natives_blob.bin__ and __snapshot_blob.bin__
+      - these file must be copied to *.exe directory
   2. Configuration Properties > General > Output and Intermediate Directories
       - `build\$(Platform)\$(Configuration)\bin\`
       - `build\$(Platform)\$(Configuration)\obj\`
